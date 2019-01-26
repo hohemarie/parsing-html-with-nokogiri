@@ -2,5 +2,5 @@ require 'rubygems'
 require 'nokogiri'
 require 'restclient'
 
-page = Nokogiri::HTML(RestClient.get("http://en.wikipedia.org/")
+page = Nokogiri::HTML(RestClient.get("http://en.wikipedia.org/"))
 puts page.class 
